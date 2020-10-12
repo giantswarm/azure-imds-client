@@ -16,17 +16,13 @@
 
     - If the repository is public consider adding godoc badge. This should be
       the first badge separated with a single space.
-      [![GoDoc](https://godoc.org/github.com/giantswarm/REPOSITORY_NAME?status.svg)](http://godoc.org/github.com/giantswarm/REPOSITORY_NAME)
+      [![GoDoc](https://godoc.org/github.com/giantswarm/azure-imds-client?status.svg)](http://godoc.org/github.com/giantswarm/azure-imds-client)
 
 -->
 [![CircleCI](https://circleci.com/gh/giantswarm/template.svg?style=shield&circle-token=cbabd7d13186f190fca813db4f0c732b026f5f6c)](https://circleci.com/gh/giantswarm/template)
 
-# REPOSITORY_NAME
+# azure-imds-client
 
-This is a template repository containing some basic files every repository
-needs.
-
-To use it just hit `Use this template` button or [this
-link][generate].
-
-[generate]: https://github.com/giantswarm/template/generate
+Azure IMDS client is an app that talks to Azure Instance Metadata Service (IMDS) and fetches
+metadata about a VMSS instance (or a VM).
+ 
