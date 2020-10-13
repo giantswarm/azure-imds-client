@@ -1,6 +1,6 @@
 module github.com/giantswarm/azure-imds-client
 
-go 1.14
+go 1.15
 
 require (
 	github.com/giantswarm/microerror v0.2.1
